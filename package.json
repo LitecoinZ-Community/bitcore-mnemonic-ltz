@@ -1,0 +1,52 @@
+{
+  "name": "bitcore-mnemonic-ltz",
+  "version": "8.0.0",
+  "description": "BIP39 Mnemonics implemented for Bitcore.",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "test:ci": "npm run test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "contributors": [
+    {
+      "name": "Yemel Jardi",
+      "email": "angel.jardi@gmail.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LitecoinZ-Community/bitcore-mnemonic-ltz.git"
+  },
+  "keywords": [
+    "litecoinz",
+    "bitcore",
+    "mnemonic",
+    "crypto",
+    "cryptography",
+    "encryption"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "bitcore-build-ltz": "git+https://github.com/LitecoinZ-Community/bitcore-build-ltz.git",
+    "brfs": "^2.0.1",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "bitcore-lib-ltz": "git+https://github.com/LitecoinZ-Community/bitcore-lib-ltz.git",
+    "unorm": "^1.4.1"
+  },
+  "peerDependencies": {
+    "bitcore-lib-ltz": "git+https://github.com/LitecoinZ-Community/bitcore-lib-ltz.git"
+  }
+}
